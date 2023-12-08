@@ -1,0 +1,77 @@
+.references {
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  border-top: 1px solid #fff9f5;
+}
+
+.references .buttons {
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 20px * 1.5);
+  z-index: 10;
+}
+
+.references .buttons a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #054065;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.references .slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.references .slides .slide {
+  display: flex;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  width: 100vw;
+  margin-right: 50px;
+  position: relative;
+}
+
+.references .slides .slide .img-container {
+  display: flex;
+  width: 50%;
+}
+
+.references .slides .slide .img-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.references .slides .slide .content-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.references .slides div:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .references .buttons {
+    display: none;
+  }
+  .references .slides .slide {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .references .slides .slide .img-container {
+    width: 100%;
+  }
+  .references .slides .slide .content-container {
+    width: 100%;
+  }
+}

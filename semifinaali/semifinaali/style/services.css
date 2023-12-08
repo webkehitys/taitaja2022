@@ -1,0 +1,93 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff9f5;
+  padding-bottom: 50px;
+}
+
+.services h2 {
+  text-align: center;
+  padding: 20px;
+}
+.services ul {
+  padding-left: 25px;
+}
+
+.services .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services .row .column {
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.services .row .column .checkbox {
+  display: none;
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  width: 32px;
+  height: 32px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+  margin: 0;
+}
+
+.services .row .column .open {
+  display: none;
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  z-index: 2;
+  transform-origin: 50% 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.services .row .column input[type="checkbox"]:checked ~ .open {
+  transform: rotate(180deg);
+}
+
+.services .row .column input[type="checkbox"]:checked ~ .content {
+  height: unset;
+}
+
+.services .row .column .content {
+  transition: height 1s ease-in-out;
+}
+
+.services .row .column .content h3 {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .services .row {
+    flex-direction: column;
+    width: 90%;
+  }
+  .services .row .column {
+    width: 100%;
+    padding: unset;
+    margin-bottom: 10px;
+  }
+  .services .row .column .checkbox {
+    display: block;
+  }
+  .services .row .column .open {
+    display: block;
+  }
+  .services .row .column .content {
+    padding: 20px;
+    height: 60px;
+    overflow: hidden;
+  }
+}

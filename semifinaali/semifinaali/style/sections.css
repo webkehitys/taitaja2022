@@ -1,0 +1,44 @@
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0px auto;
+  background-color: white;
+}
+
+section.reversed {
+  flex-direction: row-reverse;
+}
+
+section .container {
+  width: 40%;
+}
+
+section .container.picture-container {
+  display: flex;
+  flex-direction: column;
+}
+
+section .container.picture-container img {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    flex-direction: column;
+    padding: 8px;
+  }
+  section.reversed {
+    flex-direction: column;
+  }
+  section .container {
+    width: 100%;
+  }
+  section .container.picture-container img {
+    width: 100%;
+  }
+}

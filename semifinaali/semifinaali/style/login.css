@@ -1,0 +1,31 @@
+.login-page {
+  display: flex;
+  background-image: url("../assets/img/unsplash/hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.login-page .login-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  max-width: 600px;
+  background-color: #054065;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.login-page .login-container h1 {
+  color: #FFF9F5;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.login-page .login-container .login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

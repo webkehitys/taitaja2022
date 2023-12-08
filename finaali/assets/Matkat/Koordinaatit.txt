@@ -1,0 +1,5 @@
+2018: Itävalta: Möserer See, Telfs, Itävalta. Koordinaatit desimaalimuodossa: 47.31563577430922, 11.143810842962813
+2019: Slovenia: Hotel San Martin, Šmartno, Kojsko, Slovenia. koordinaatit desimaalimuodossa: 46.00624383835545, 13.556297995949581
+2022: Islanti: Blueberry hills Villa, Reykjavik, Islanti. Koordinaati desimaalimuodossa: 64.11414474918355, -21.63168724562287
+2022: Italia: Gardajärvi, Koodinaatit desimaalimuodossa: 45.62441651545789, 10.633384740456691
+2023: Norja: Lofootit, Koordinaatit desimaalimuodossa: 68.03697264528303, 13.662842098796732
