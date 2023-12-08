@@ -8,7 +8,7 @@ Tehtävään käytettävä kilpailuaika: 2,5h.
 
 Moduuli A keskittyy verkkosivuston suunnitteluun asiakkaan tarpeiden perusteella. Kilpailijan tulee tuottaa digitaalinen rautalankamalli, esitellä se asiakkaalle ja valmistautua asiakastapaamiseen, jossa esitellään suunnitelmat ja saadaan asiakaspalautetta.
 
-### Avainsanat:
+#### Avainsanat:
 
 1. Verkkosivusto
 2. Rautalankamalli
@@ -21,7 +21,7 @@ Tehtävään käytettävä kilpailuaika: 4h.
 
 Moduuli B:ssä kilpailijan tehtävänä on toteuttaa verkkosivusto asiakkaan vaatimusten ja aiemmin suunnitellun rautalankamallin mukaisesti. Graafisen suunnitelman noudattaminen on välttämätöntä, ja sivuston tulee olla responsiivinen ja optimoitu työpöytäkäyttöön.
 
-### Avainsanat:
+#### Avainsanat:
 
 1. Verkkosivusto
 2. graafinen suunnittelu
@@ -35,7 +35,7 @@ Tehtävään käytettävä kilpailuaika: 3h.
 
 Moduulissa C kilpailija toteuttaa sivustolle intranetin ja ylläpitotyökalun, jossa hyödynnetään tietokantaa. Tämä mahdollistaa liikuntamatkojen lisäämisen, muokkaamisen ja poistamisen, ja tietokantaa käytetään palvelun sisällön tuottamiseen. Sivuston ylläpitäjän tulee pystyä kirjautumaan sisään ja tekemään tarvittavat muutokset.
 
-### Avainsanat:
+#### Avainsanat:
 
 1. Intranet ja ylläpitotyökalu
 2. Tietokantayhteys
@@ -48,7 +48,7 @@ Tehtävään käytettävä kilpailuaika: 3,5h.
 
 Moduulissa D kilpailijan tehtävänä on toteuttaa interaktiivinen karttatoiminto hyödyntäen avoimen lähdekoodin kirjastoja ja API:a. Karttaan tulee merkitä vähintään kolme liikuntamatkaa, ja käyttäjä voi tutustua niihin kartan avulla. Kilpailijan on myös huolehdittava ilmoittautumislomakkeen toiminnallisuudesta ja tietokannasta.
 
-### Avainsanat:
+#### Avainsanat:
 
 1. Interaktiivinen karttatoiminto
 2. Avoimen lähdekoodin kirjastot
@@ -62,7 +62,7 @@ Tehtävään käytettävä kilpailuaika: 1h.
 
 Pikataivaltehtäviä yhden tunnin ajan aiheista HTML, CSS, JavaScript ja PHP. Yhden tehtävän kesto n. 5min.
 
-### Avainsanat:
+#### Avainsanat:
 
 1. Pikataival
 2. Ohjelmointitehtävät
@@ -73,7 +73,7 @@ Tehtävään käytettävä kilpailuaika: 2h.
 
 Opiskelijat työskentelevät pareittain. Tavoitteena on kehittää innovatiivisia ideoita, kuinka houkutella 50 kilpailijaa semifinaaliin lajiin 206 Taitaja 2023:ssa Espoossa.
 
-### Avainsanat:
+#### Avainsanat:
 
 1. Ryhmätyö
 2. Luovuus
