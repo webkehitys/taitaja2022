@@ -1,3 +1,5 @@
+![Taitaja 2022 Pori](taitaja22.png)
+
 # Taitaja 2022 web-kehitys laji tehtävät
 
 ## Semifinaali
